@@ -52,6 +52,7 @@ gsettings set org.nemo.desktop home-icon-visible false
 gsettings set org.nemo.desktop trash-icon-visible false
 gsettings set org.nemo.preferences quick-renames-with-pause-in-between true
 gsettings set org.nemo.preferences show-advanced-permissions true
+gsettings set org.nemo.icon-view captions "['size', 'size', 'date_modified']"
 
 # Configure editor preferences
 gsettings set org.x.editor.preferences.editor prefer-dark-theme true
