@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+#v1.0
 
 NOCOLOR='\033[0m' # No Color
 GREEN='\033[0;32m' # Green
