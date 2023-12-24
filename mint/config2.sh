@@ -45,14 +45,3 @@ gsettings set org.x.apps.portal color-scheme 'prefer-dark'
 # Configure editor preferences
 gsettings set org.x.editor.preferences.editor prefer-dark-theme true
 gsettings set org.x.editor.preferences.editor scheme 'oblivion'
-
-# Configure power management
-gsettings set org.cinnamon.settings-daemon.plugins.power idle-brightness 15
-gsettings set org.cinnamon.settings-daemon.plugins.power idle-dim-time 90
-gsettings set org.cinnamon.settings-daemon.plugins.power idle-dim-ac false
-gsettings set org.cinnamon.settings-daemon.plugins.power idle-dim-battery true
-gsettings set org.cinnamon.settings-daemon.plugins.power lid-close-ac-action 'suspend'
-gsettings set org.cinnamon.settings-daemon.plugins.power lid-close-battery-action 'suspend'
-gsettings set org.cinnamon.settings-daemon.plugins.power lid-close-suspend-with-external-monitor false
-gsettings set org.cinnamon.settings-daemon.plugins.power sleep-inactive-battery-timeout 1800
-
