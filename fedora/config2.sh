@@ -50,7 +50,8 @@ gsettings set org.nemo.preferences show-computer-icon-toolbar true
 gsettings set org.nemo.preferences show-open-in-terminal-toolbar true
 gsettings set org.nemo.desktop computer-icon-visible false
 gsettings set org.nemo.desktop home-icon-visible false
-gsettings set org.nemo.desktop trash-icon-visible false
+gsettings set org.nemo.desktop trash-icon-visible true
+gsettings set org.nemo.desktop volumes-visible false
 gsettings set org.nemo.preferences quick-renames-with-pause-in-between true
 gsettings set org.nemo.preferences show-advanced-permissions true
 gsettings set org.nemo.icon-view captions "['size', 'size', 'date_modified']"
