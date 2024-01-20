@@ -34,9 +34,6 @@ sudo chmod +x /usr/local/bin/yt-dlp
 # Add Meld
 flatpak install -y flathub org.gnome.meld
 
-# Add Joplin
-latpak install flathub net.cozic.joplin_desktop
-
 # Add VSCodium
 wget -qO - https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/raw/master/pub.gpg \
     | gpg --dearmor \
@@ -54,6 +51,16 @@ wget -O ~/Downloads/postman-linux-x64.tar.gz https://dl.pstmn.io/download/latest
 cd /opt
 sudo tar xf ~/Downloads/postman-linux-x64.tar.gz
 sudo ln -s /opt/Postman/Postman /usr/local/bin/postman
+sudo cat <<EOF >/usr/local/share/applications/postman.desktop
+[Desktop Entry]
+Name=Postman
+Exec=postman
+Comment=Web call investigator
+Terminal=false
+Type=Application
+Icon=/opt/Postman/app/icons/icon_128x128.png
+Categories=Development
+EOF
 
 # Add Slack
 printx "Manually download the slack DEB from this URL 'https://slack.com/downloads/linux'"
@@ -68,4 +75,5 @@ wget -O ~/Downloads/idriveforlinux.bin https://www.idrivedownloads.com/downloads
 sudo mv /home/rod/Downloads/idriveforlinux.bin /opt
 sudo bash /opt/idriveforlinux.bin --install
 
-
+# Update to add all menu items
+sudo update-desktop-database
