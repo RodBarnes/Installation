@@ -42,14 +42,13 @@ sudo apt install -y ~/Downloads/LocalSend-1.13.0-linux-x86-64.deb
 rm ~/Downloads/LocalSend-1.13.0-linux-x86-64.deb
 
 # Add Joplin
-wget -O ~/Downloads/Joplin-2.13.12.AppImage https://objects.joplinusercontent.com/v2.13.12/Joplin-2.13.12.AppImage
-~/Scripts/install_appimage.sh joplin Joplin-2.13.12.AppImage
+flatpak install flathub net.cozic.joplin_desktop
+#wget -O ~/Downloads/Joplin-2.13.12.AppImage https://objects.joplinusercontent.com/v2.13.12/Joplin-2.13.12.AppImage
+#~/Scripts/install_appimage.sh joplin Joplin-2.13.12.AppImage
 
 # Additional software
 sudo apt install -y htop procinfo hwinfo lsscsi
 sudo apt install -y dconf-editor
 sudo apt install -y gparted
 sudo apt install -y micro
-sudo apt install -y pdftk-java
 sudo apt install -y vlc
-

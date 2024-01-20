@@ -18,6 +18,8 @@ fi
 sudo apt install -y cmake
 sudo apt install -y picard
 sudo apt install -y sound-juicer
+sudo apt install -y ffmpeg
+sudo apt install -y pdftk-java
 
 # Add/configure git
 sudo apt install -y git
@@ -63,8 +65,9 @@ Categories=Development
 EOF
 
 # Add Slack
-printx "Manually download the slack DEB from this URL 'https://slack.com/downloads/linux'"
-sudo apt install ~/Downloads/slack-desktop-4.35.131-amd64.deb
+flatpak install flathub com.slack.Slack
+#printx "Manually download the slack DEB from this URL 'https://slack.com/downloads/linux'"
+#sudo apt install ~/Downloads/slack-desktop-4.35.131-amd64.deb
 
 # Add Zoom
 wget -O ~/Downloads/zoom_amd64.deb https://zoom.us/client/5.17.1.1840/zoom_amd64.deb
