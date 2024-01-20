@@ -14,15 +14,6 @@ if [[ "$EUID" = 0 ]]; then
   exit
 fi
 
-# Remove uneeded software
-sudo apt remove -y thunderb*
-sudo apt remove -y firefox*
-sudo apt remove -y warpinator
-
-# Cleanup
-sudo apt purge -y --autoremove
-
-# Update Software
-sudo apt update
-sudo apt upgrade -y
+# Additional software
+sudo apt install -y brightnessctl
 
