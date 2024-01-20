@@ -34,6 +34,9 @@ sudo chmod +x /usr/local/bin/yt-dlp
 # Add Meld
 flatpak install -y flathub org.gnome.meld
 
+# Add Joplin
+latpak install flathub net.cozic.joplin_desktop
+
 # Add VSCodium
 wget -qO - https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/raw/master/pub.gpg \
     | gpg --dearmor \
