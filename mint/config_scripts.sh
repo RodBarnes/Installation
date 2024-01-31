@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 #v1.00
 
-# Get the current directory where this script resides
 DIR=$(dirname $(readlink -f $0))
 #echo "DIR=${DIR}"
 
@@ -17,9 +16,9 @@ fi
 
 # Copy the scripts, make them executable, then move then to /usr/local/bin
 sudo mkdir /tmp/TOOL_SCRIPTS
-sudo cp ${DIR}/../../Scripts/* /tmp/TOOL_SCRIPTS
+sudo cp bin/* /tmp/TOOL_SCRIPTS
 sudo chmod +x /tmp/TOOL_SCRIPTS/*
+sudo chgrp root /tmp/TOOL_SCRIPTS/*
+sudo chown root /tmp/TOOL_SCRIPTS/*
 sudo mv /tmp/TOOL_SCRIPTS/* /usr/local/bin
 sudo rmdir /tmp/TOOL_SCRIPTS
-
-
