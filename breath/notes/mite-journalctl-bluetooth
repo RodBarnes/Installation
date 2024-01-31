@@ -1,0 +1,17 @@
+Apr 08 08:27:44 mite bluetoothd[595]: Bluetooth daemon 5.60
+Apr 08 08:27:44 mite bluetoothd[595]: Starting SDP server
+Apr 08 08:27:44 mite bluetoothd[595]: Bluetooth management interface 1.20 initialized
+Apr 08 08:27:44 mite NetworkManager[601]: <info>  [1649431664.7468] Loaded device plugin: NMBluezManager (/usr/lib/x86_64-linux-gnu/NetworkManager/1.32.12/libnm-device-plugin-bluetooth.so)
+Apr 08 08:27:53 mite bluetoothd[595]: Endpoint registered: sender=:1.80 path=/MediaEndpoint/A2DPSink/sbc
+Apr 08 08:27:53 mite bluetoothd[595]: Endpoint registered: sender=:1.80 path=/MediaEndpoint/A2DPSource/sbc
+Apr 08 08:27:53 mite bluetoothd[595]: Endpoint registered: sender=:1.80 path=/MediaEndpoint/A2DPSink/sbc_xq_453
+Apr 08 08:27:53 mite bluetoothd[595]: Endpoint registered: sender=:1.80 path=/MediaEndpoint/A2DPSource/sbc_xq_453
+Apr 08 08:27:53 mite bluetoothd[595]: Endpoint registered: sender=:1.80 path=/MediaEndpoint/A2DPSink/sbc_xq_512
+Apr 08 08:27:53 mite bluetoothd[595]: Endpoint registered: sender=:1.80 path=/MediaEndpoint/A2DPSource/sbc_xq_512
+Apr 08 08:27:53 mite bluetoothd[595]: Endpoint registered: sender=:1.80 path=/MediaEndpoint/A2DPSink/sbc_xq_552
+Apr 08 08:27:53 mite bluetoothd[595]: Endpoint registered: sender=:1.80 path=/MediaEndpoint/A2DPSource/sbc_xq_552
+Apr 08 08:28:55 mite dbus-daemon[1289]: [session uid=1000 pid=1289] Activating via systemd: service name='org.bluez.obex' unit='dbus-org.bluez.obex.service' requested by ':1.102' (uid=1000 pid=2352 comm="gnome-control-center bluetooth " label="unconfined")
+Apr 08 08:30:02 mite bluetoothd[595]: /org/bluez/hci0/dev_00_11_67_63_08_3F/sep1/fd0: fd(42) ready
+Apr 08 08:30:35 mite bluetoothd[595]: src/device.c:load_gatt_db() No cache for DF:FC:48:A6:93:AB
+Apr 08 08:32:26 mite systemd[1277]: app-gnome-gnome\x2dbluetooth\x2dpanel-2352.scope: Deactivated successfully.
+Apr 08 08:32:26 mite systemd[1277]: app-gnome-gnome\x2dbluetooth\x2dpanel-2352.scope: Consumed 23.705s CPU time.

@@ -1,0 +1,22 @@
+gstreamer1.0-pipewire/impish,now 0.3.32-1 amd64 [installed,automatic]
+gstreamer1.0-pipewire/impish 0.3.32-1 i386
+libpipewire-0.3-0/impish,now 0.3.32-1 amd64 [installed,automatic]
+libpipewire-0.3-0/impish 0.3.32-1 i386
+libpipewire-0.3-common/impish,impish,now 0.3.32-1 all [installed,automatic]
+libpipewire-0.3-dev/impish 0.3.32-1 amd64
+libpipewire-0.3-dev/impish 0.3.32-1 i386
+libpipewire-0.3-modules/impish,now 0.3.32-1 amd64 [installed,automatic]
+libpipewire-0.3-modules/impish 0.3.32-1 i386
+pipewire-audio-client-libraries/impish 0.3.32-1 amd64
+pipewire-audio-client-libraries/impish 0.3.32-1 i386
+pipewire-bin/impish,now 0.3.32-1 amd64 [installed,automatic]
+pipewire-bin/impish 0.3.32-1 i386
+pipewire-doc/impish,impish 0.3.32-1 all
+pipewire-media-session/impish,now 0.3.32-1 amd64 [installed,automatic]
+pipewire-media-session/impish 0.3.32-1 i386
+pipewire-pulse/impish 0.3.32-1 amd64
+pipewire-pulse/impish 0.3.32-1 i386
+pipewire-tests/impish 0.3.32-1 amd64
+pipewire-tests/impish 0.3.32-1 i386
+pipewire/impish,now 0.3.32-1 amd64 [installed,automatic]
+pipewire/impish 0.3.32-1 i386
