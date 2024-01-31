@@ -4,7 +4,7 @@
 DIR=$(dirname $(readlink -f $0))
 #echo "DIR=${DIR}"
 
-source ${DIR}/../colors.sh
+source ${DIR}/colors.sh
 function printx {
   printf "${YELLOW}$1${NOCOLOR}\n"
 }

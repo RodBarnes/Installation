@@ -4,7 +4,7 @@
 DIR=$(dirname $(readlink -f $0))
 #echo "DIR=${DIR}"
 
-source ${DIR}/../colors.sh
+source ${DIR}/colors.sh
 function printx {
   printf "${YELLOW}$1${NOCOLOR}\n"
 }
@@ -18,9 +18,4 @@ fi
 gsettings set org.cinnamon.settings-daemon.plugins.power idle-brightness 15
 gsettings set org.cinnamon.settings-daemon.plugins.power idle-dim-time 90
 gsettings set org.cinnamon.settings-daemon.plugins.power idle-dim-ac false
-gsettings set org.cinnamon.settings-daemon.plugins.power idle-dim-battery true
-gsettings set org.cinnamon.settings-daemon.plugins.power lid-close-ac-action 'suspend'
-gsettings set org.cinnamon.settings-daemon.plugins.power lid-close-battery-action 'suspend'
-gsettings set org.cinnamon.settings-daemon.plugins.power lid-close-suspend-with-external-monitor false
-gsettings set org.cinnamon.settings-daemon.plugins.power sleep-inactive-battery-timeout 1800
 gsettings set org.cinnamon.settings-daemon.plugins.power button-power 'interactive'
