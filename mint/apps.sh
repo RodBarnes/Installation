@@ -22,6 +22,7 @@ fi
 sudo apt remove -y thunderb*
 sudo apt remove -y firefox*
 sudo apt remove -y warpinator
+sudo apt remove -y pix
 
 # Cleanup
 sudo apt purge -y --autoremove
@@ -52,3 +53,4 @@ sudo apt install -y dconf-editor
 sudo apt install -y gparted
 sudo apt install -y micro
 sudo apt install -y vlc
+sudo apt install -y nemo-image-converter
