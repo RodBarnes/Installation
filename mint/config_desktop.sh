@@ -36,3 +36,6 @@ gsettings set org.nemo.preferences show-advanced-permissions true
 # Configure editor preferences
 gsettings set org.x.editor.preferences.editor prefer-dark-theme true
 gsettings set org.x.editor.preferences.editor scheme 'oblivion'
+
+# Configure user
+sudo usermod -a -G lpadmin $(whoami)
