@@ -32,6 +32,7 @@ gsettings set org.nemo.desktop trash-icon-visible false
 gsettings set org.nemo.desktop volumes-visible false
 gsettings set org.nemo.preferences quick-renames-with-pause-in-between true
 gsettings set org.nemo.preferences show-advanced-permissions true
+gsettings set org.nemo.desktop use-desktop-grid false
 
 # Configure editor preferences
 gsettings set org.x.editor.preferences.editor prefer-dark-theme true
