@@ -9,18 +9,10 @@ if [[ "$EUID" = 0 ]]; then
 fi
 
 # Copy the scripts, make them executable, then move then to /usr/local/bin
-sudo mkdir /tmp/TOOL_SCRIPTS
+sudo cp "$DIR/../scripts/lib/*.sh" /usr/local/lib
 
-sudo cp "$DIR/../scripts/bin/*" /tmp/TOOL_SCRIPTS
-sudo chown root:root /tmp/TOOL_SCRIPTS/*
-sudo chmod +x /tmp/TOOL_SCRIPTS/*
-for file in */tmp/TOOL_SCRIPTS/*; do
-	sudo mv "$file" "/usr/local/bin/${file%.sh}"
+cd "$DIR/../scripts/bin/*"
+for file in *.sh; do
+	sudo cp "$file" "/usr/local/bin/${file%.sh}"
 done
-
-sudo cp "$DIR/../scripts/lib/*" /tmp/TOOL_SCRIPTS
-sudo chown root:root /tmp/TOOL_SCRIPTS/*
-sudo mv /tmp/TOOL_SCRIPTS/* /usr/local/lib
-
-sudo rmdir /tmp/TOOL_SCRIPTS
-
+sudo chmod +x /usr/local/bin/*
